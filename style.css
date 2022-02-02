@@ -1,0 +1,49 @@
+h1 {
+  font-size: 50px;
+}
+h2 {
+  padding-bottom: 20px;
+}
+h3 {
+  padding: 20px;
+}
+header {
+  margin: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.light-background {
+  background: rgb(130, 155, 170);
+  color: dark grey;
+}
+.background {
+  background: rgb(128, 59, 59);
+  color: black:
+}
+.wrapper {
+  margin: auto;
+  width: 600px;
+}
+img {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+background {
+  color:rgb(73, 72, 72);
+}
+.center-text {
+  text-align: center;
+}
+section {
+  padding: 20px;
+}
+hr {
+  height: 3px;
+  background-color: black;
+  border-color: black;
+  margin: 10px;
+
+}
+footer {
+  height: 60px;
+}
