@@ -1,3 +1,4 @@
+/* Genereal style        */
 h1 {
   font-size: 50px;
 }
@@ -23,11 +24,6 @@ header {
   margin: auto;
   width: 600px;
 }
-img {
-  width: 100%;
-  padding-top: 40px;
-  padding-bottom: 20px;
-}
 background {
   color:rgb(73, 72, 72);
 }
@@ -42,7 +38,14 @@ hr {
   background-color: black;
   border-color: black;
   margin: 10px;
+/* Media------------*/
+img {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
 
+/*  Footer------------*/
 }
 footer {
   height: 60px;
