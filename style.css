@@ -40,11 +40,13 @@ hr {
   margin: 10px;
 /* Media------------*/
 img {
-  width: 100%;
+  width: 50%;
+  height: 50%;
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
+  }
 /*  Footer------------*/
 }
 footer {
