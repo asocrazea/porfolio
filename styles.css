@@ -76,6 +76,18 @@
   }
 }
 
+@media (max-width: 576px) {
+  .img-profile {
+    max-width: 12rem;
+    max-height: 12rem;
+    border: 0.5rem solid rgba(255, 249, 251, 0.5);
+  }
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
