@@ -1,43 +1,108 @@
 /* Genereal style        */
-h1 {
-  font-size: 50px;
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #6c757d;
+  background-color: #f8f9fa;
 }
-h2 {
-  padding-bottom: 20px;
+
+h1, h2, h3, h4, h5, h6 {
+  color: #343a40;
 }
-h3 {
-  padding: 20px;
-}
-header {
-  margin: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.light-background {
-  background: rgb(130, 155, 170);
-  color: dark grey;
-}
-.background {
-  background: rgb(128, 59, 59);
-  color: black:
-}
-.wrapper {
-  margin: auto;
-  width: 600px;
-}
-background {
-  color:rgb(73, 72, 72);
-}
-.center-text {
-  text-align: center;
-}
-section {
-  padding: 20px;
-}
+
 hr {
-  height: 3px;
-  background-color: black;
-  border-color: black;
-  margin: 10px;
+  border-width: 1px;
+  border-color: rgba(255, 249, 251, 0.4);
+}
+
+a {
+  color: #f3a14b;
+}
+a:hover {
+  color: #93ada4;
+  text-decoration: none;
+}
+
+header.masthead {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  background-color: #eadfc9;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  font-family: 'Anton', sans-serif;
+  font-weight: 450;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: #dc7646;
+}
+.masthead-full-name {
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  font-size: 2.75rem;
+}
+.last-name-highlight {
+  color: #f3a14b;
+}
+@media (max-width: 576px) {
+  .masthead-full-name {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+}
+
+.bg-primary {
+  background-color: #eadfc9 !important;
+}
+
+.img-profile {
+  max-width: 15rem;
+  max-height: 15rem;
+  border: 0.5rem solid rgba(255, 249, 251, 0.5);
+}
+
+@media (max-width: 576px) {
+  .img-profile {
+    max-width: 12rem;
+    max-height: 12rem;
+    border: 0.5rem solid rgba(255, 249, 251, 0.5);
+  }
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.subheading {
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+
+
+.font-italic {
+  font-style: italic !important;
+}
+
+.text-primary {
+  color: #f3a14b !important;
+}
+
+.text-dark {
+  color: #343a40 !important;
+}
+
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  background-color: #eadfc9;
+}
+
 /* Media------------*/
 img {
   width: 50%;
