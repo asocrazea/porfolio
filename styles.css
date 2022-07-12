@@ -22,12 +22,14 @@ justify-content: center;
   flex-wrap: wrap;
   row-gap: auto;
   column-gap: auto;
-  box-sizing: border-box;
-  border: 3px black !important;
+  align-items: flex-end;
+  align-self: flex-end;
 }
 .box {
   display: flex;
   flex-direction: row;
+  min-width: 300px;
+  min-height: 400px;
   padding: 2px;
   flex-wrap: wrap;
   row-gap: auto;
@@ -49,6 +51,7 @@ justify-content: center;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  border-radius: 1%;
 }
 .flex-title {
   padding: 10px;
@@ -57,12 +60,11 @@ justify-content: center;
   position: relative;
 }
 .flex {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 3px solid #022d48;
+  padding: 2px;
+  margin: 2px;
   font-size: 14px;
   text-align: center;
-  position: relative;
+  
 }
 .center-items {
   align-items: center !important;
@@ -80,14 +82,6 @@ nav li {
 .push-right {
   margin-left: right;
 }
-.flex4 {
-  flex-basis: fit-content;
-}
-
-.flex4:after {
-  content: 'fit-content';
-}
-
   body {
     margin: 2;
     line-height: 1.5;
@@ -115,12 +109,9 @@ nav li {
   h2 {
     font-size: calc(1.325rem + 1.5 );
   }
- 
-  
   h3 {
     font-size: calc(1.3rem + 0.6vw);
   }
-  
   .text-center {
     align-items:center;
     justify-self: auto;
@@ -136,7 +127,6 @@ nav li {
   }
   .about-section {
     padding: 2rem 0;
-    font-size: 2.25rem;
     line-height: 2rem;
     background-color: rgb(228, 239, 168);
   }
@@ -151,8 +141,8 @@ nav li {
     padding: 2rem 0;
   }
   .footer {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: #2c3e50;
     color: #fff;
   }
