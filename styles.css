@@ -21,6 +21,7 @@
 .main {
   background-color: rgb(86, 100, 231);
   color: aliceblue;
+  width: fit-content;
   
 }
 .header {
